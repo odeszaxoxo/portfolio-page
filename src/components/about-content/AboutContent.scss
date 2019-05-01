@@ -1,0 +1,81 @@
+.about-content{
+    display: flex;
+    flex-direction: column;
+    &__wrapper{
+        width: 100%;
+        padding: 3.5em 5%;
+        border-bottom: #dddddd solid 1px;
+        box-shadow: 0px 15px 10px -15px lightgray;
+        &.skills{
+            background-color: #fafafa;
+        }
+    }    
+    &__row{
+        display: flex;
+        align-items: stretch;
+        margin: 0 auto;
+        max-width: 1040px;
+        &.skills{
+
+        }
+    }
+    &__info{
+        text-align: left;
+        width: 50%;
+    }
+    &__title{
+        font-size: 70px;
+        letter-spacing: -0.03em;
+        margin-bottom: 15px;
+        &.skills{
+            margin-bottom: 70px;
+        }
+        &.interests{
+            margin-bottom: 70px;
+        }
+    }
+    &__intro{
+        font-size: 26px;
+        color: #666666;
+        font-weight: 300;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+    &__text{
+        line-height: 27px;
+        margin-bottom: 25px;
+        font-size: 20px;
+        font-weight: 100;
+        color: #666666;
+    }
+    &-vk{
+        width: 50%;
+    }
+    &__photo{
+        width: 50%;
+        height: 100%;
+    }
+    &__skills{
+        text-align: left;
+        width: 50%;
+    }
+    &__interests{
+        text-align: right;
+        width: 50%;
+    }
+    &__item{
+        margin-bottom: 25px;
+        font-size: 20px;
+        font-weight: 100;
+        color: #666666;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .about-content{
+        &__info{
+            width: 40%;
+            padding-top: 25px;
+            margin: 0 4% 0 0;
+        }
+    }
+}

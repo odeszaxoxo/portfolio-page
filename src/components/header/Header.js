@@ -15,10 +15,10 @@ export const HeaderComponent = () => {
                     <Link to="/portfolio" className="main-header__links link">portfolio</Link>
                 </div>
                 <div className="main-header__social">
-                    <Link className="main-header__social link"><i className="fas fa-envelope"></i></Link>
-                    <Link className="main-header__social link"><i className="fab fa-twitter"></i></Link>
-                    <Link className="main-header__social link"><i className="fab fa-instagram"></i></Link>
-                    <Link className="main-header__social link"><i className="fab fa-vk"></i></Link>
+                    <a href="mailto:krnvdns@outlook.com" className="main-header__social link"><i className="fas fa-envelope"></i></a>
+                    <a href="https://twitter.com/Odeszaxo" className="main-header__social link"><i className="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/_yanni.tsunami_/" className="main-header__social link"><i className="fab fa-instagram"></i></a>
+                    <a href="https://vk.com/odeszaxo" className="main-header__social link"><i className="fab fa-vk"></i></a>
                 </div>
             </div>
         </div>

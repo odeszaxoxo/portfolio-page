@@ -1,6 +1,5 @@
 import React from 'react';
 import './LandingPreview.scss';
-import { Link } from "react-router-dom";
 
 export const LandingPreviewComponent = () => {
     
