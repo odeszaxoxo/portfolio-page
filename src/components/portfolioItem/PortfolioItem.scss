@@ -1,0 +1,51 @@
+.portfolio-item{
+    border-bottom: 1px solid lightgray;
+    height: 500px;
+    width:900px;
+    display: flex;
+    &__image{
+        height: 260px;
+        width: 435px;
+    }
+    &__wrapper{
+        padding-top: 125px;
+        padding-bottom: 130px;
+        display: flex;
+    }
+    &__skills{
+        list-style: none;
+        display: flex;
+    }
+    &__skill{
+        background-color: #f04;
+        color: white;
+        font-size: 12px;
+        text-shadow: 0 1px 0 rgba(0,0,0,.15);
+        line-height: 20px;
+        border-radius: 4px;
+        padding: 4px 9px;
+        height: 25px;
+        margin-left: 10px;
+    }
+    &__title{
+        font-size: 38px;
+        font-weight: 800;
+        color: #303030;
+        text-decoration: none;
+        &:hover{
+            color: #f04;
+            transition: all .2s ease-out;
+        }
+    }
+    &__description{
+        text-align: left;
+        padding: 0 50px;
+    }
+    &__text{
+        line-height: 26px;
+        color: #868686;
+        font-size: 14px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}

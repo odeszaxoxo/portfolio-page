@@ -1,0 +1,1 @@
+export {PortfolioComponent} from '../components/portfolio/Portfolio'
